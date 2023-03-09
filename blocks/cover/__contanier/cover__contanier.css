@@ -1,0 +1,21 @@
+.cover__contanier {
+  padding: 0 calc((100% - 1184px) / 2) 0;
+  height: 740px;
+  margin: 92px auto;
+}
+@media screen and (max-width: 1024px) {
+  .cover__contanier {
+    height: 640px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__contanier {
+    height: 480px;
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cover__contanier {
+    height: 200px;
+  }
+}

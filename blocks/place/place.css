@@ -1,0 +1,43 @@
+.place {
+  list-style: none;
+  font-family: 'Inter';
+  display: grid;
+  grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
+  gap: 40px 48px;
+  grid-template-areas:
+    'title website'
+    'image text';
+}
+
+.place:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
+    gap: 32px 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(auto, 352px) minmax(auto, 352px);
+    gap: 28px 48px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .place {
+    grid-template-areas:
+      'title'
+      'website'
+      'image'
+      'text';
+    grid-template-columns: minmax(auto, 100%);
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: minmax(auto, 100%);
+  }
+}

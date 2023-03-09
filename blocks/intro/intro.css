@@ -1,0 +1,6 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+}
