@@ -1,0 +1,9 @@
+.place__text {
+  margin: 0;
+  padding-bottom: 26px;
+}
+@media screen and (max-width: 767px) {
+  .place__text {
+    padding-bottom: 25px;
+  }
+}
