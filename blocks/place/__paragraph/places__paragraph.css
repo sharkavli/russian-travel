@@ -1,6 +1,5 @@
 .place__paragraph {
   grid-area: text;
-  text-align: start;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
