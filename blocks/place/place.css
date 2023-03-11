@@ -3,7 +3,7 @@
   font-family: 'Inter';
   display: grid;
   grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
-  gap: 40px 48px;
+  gap: 48px 40px;
   grid-template-areas:
     'title website'
     'image text';
