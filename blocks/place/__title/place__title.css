@@ -11,12 +11,8 @@
 
 @media screen and (max-width: 896px) {
   .place__title {
-    font-family: Inter;
     font-size: 42px;
-    font-weight: 900;
     line-height: 46px;
-    letter-spacing: 0em;
-    text-align: left;
   }
 }
 @media screen and (max-width: 600px) {
@@ -26,12 +22,7 @@
 }
 @media screen and (max-width: 544px) {
   .place__title {
-    font-family: Inter;
     font-size: 32px;
-    font-weight: 900;
     line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-
   }
 }
