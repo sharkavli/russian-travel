@@ -1,6 +1,5 @@
 .place {
   list-style: none;
-  font-family: 'Inter';
   display: grid;
   grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
   gap: 48px 40px;
@@ -16,13 +15,13 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
-    gap: 32px 48px;
+    gap: 48px 32px;
   }
 }
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: minmax(auto, 352px) minmax(auto, 352px);
-    gap: 28px 48px;
+    grid-template-columns: minmax(auto, 340px) minmax(auto, 352px);
+    gap: 48px 28px;
   }
 }
 @media screen and (max-width: 600px) {

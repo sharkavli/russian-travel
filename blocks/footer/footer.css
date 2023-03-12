@@ -25,3 +25,8 @@
     min-height: 310px;
   }
 }
+@media screen and (max-width: 400px) {
+  .footer {
+    padding: 0 calc((100% - 288px) / 2) 0;
+  }
+}

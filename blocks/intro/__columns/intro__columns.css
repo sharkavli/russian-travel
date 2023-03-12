@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 768px) {
   .intro__columns {
-    padding: 88px calc((100% - 738px) / 2) 0;
+    padding: 88px calc((100% - 720px) / 2) 0;
   }
 }
 @media screen and (max-width: 750px) {
